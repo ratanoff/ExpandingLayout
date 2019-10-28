@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:layoutDescription="@xml/activity_main_scene">
+    app:layoutDescription="@xml/view_faq_scene">
 
     <TextView
         android:id="@+id/title"

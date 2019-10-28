@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    app:layoutDescription="@xml/activity_main_scene">
+    app:layoutDescription="@xml/view_faq_scene">
 
 
     <com.example.expandinglayout.FaqView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:description="222222"
+        app:description="@string/description"
         app:title="11111" />
 
     <com.example.expandinglayout.FaqView
