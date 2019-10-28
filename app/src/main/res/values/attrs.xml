@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <declare-styleable name="FaqView">
+        <attr name="title" format="string" />
+        <attr name="description" format="string" />
+    </declare-styleable>
+</resources>
