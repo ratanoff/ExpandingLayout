@@ -3,11 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:id="@+id/root_layout"
     app:layoutDescription="@xml/view_faq_scene">
 
 
     <com.example.expandinglayout.FaqView
+        android:id="@+id/faq1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:description="@string/description"
@@ -16,6 +19,7 @@
     <com.example.expandinglayout.FaqView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:expanded="true"
         app:description="@string/description"
         app:title="Вопрос 2" />
 

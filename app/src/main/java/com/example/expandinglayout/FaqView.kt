@@ -3,6 +3,7 @@ package com.example.expandinglayout
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
+import android.widget.Toast
 import androidx.constraintlayout.motion.widget.MotionLayout
 import kotlinx.android.synthetic.main.view_faq.view.*
 
@@ -19,12 +20,16 @@ class FaqView(context: Context, attrs: AttributeSet) : MotionLayout(context, att
             try {
                 title.text = getString(R.styleable.FaqView_title)
                 description.text = getString(R.styleable.FaqView_description)
+
+                val expanded = getBoolean(R.styleable.FaqView_expanded, false)
+                if (expanded) {
+                    motion_layout.transitionToEnd()
+                }
+
             } finally {
                 recycle()
             }
         }
-
-
     }
 
 }
