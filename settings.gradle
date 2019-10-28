@@ -1,0 +1,2 @@
+rootProject.name='Expanding Layout'
+include ':app'
