@@ -30,6 +30,9 @@
             <CustomAttribute
                 motion:attributeName="elevation"
                 motion:customDimension="0dp" />
+            <CustomAttribute
+                motion:attributeName="backgroundColor"
+                motion:customColorValue="@color/colorAccent" />
         </Constraint>
     </ConstraintSet>
 
@@ -55,6 +58,9 @@
             <CustomAttribute
                 motion:attributeName="elevation"
                 motion:customDimension="4dp" />
+            <CustomAttribute
+                motion:attributeName="backgroundColor"
+                motion:customColorValue="@color/colorAccentDark" />
         </Constraint>
     </ConstraintSet>
 </MotionScene>

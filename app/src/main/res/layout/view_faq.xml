@@ -15,7 +15,6 @@
         android:paddingStart="16dp"
         android:gravity="center_vertical"
         android:textSize="20sp"
-        android:background="@color/colorAccent"
         android:text="@string/title"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
